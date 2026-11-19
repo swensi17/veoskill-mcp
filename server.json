@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "uz.veoskill/neolex",
+  "title": "VEOSKILL",
+  "description": "Laws of Uzbekistan and legal study: search acts, read articles, notes, progress and review.",
+  "version": "1.0.3",
+  "websiteUrl": "https://veoskill.uz",
+  "repository": {
+    "url": "https://github.com/swensi17/veoskill-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://veoskill.uz/brand/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://veoskill.uz/mcp"
+    }
+  ]
+}
