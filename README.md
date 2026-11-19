@@ -53,7 +53,7 @@ choose what the assistant may see and do. A free account at [veoskill.uz](https:
 | **ChatGPT** | Plugins → `+` → Add custom MCP server → URL above, auth OAuth |
 | **Gemini** (web) | Settings → Connectors → `+` → paste the URL |
 | **VS Code** | [Install](https://vscode.dev/redirect/mcp/install?name=veoskill&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fveoskill.uz%2Fmcp%22%7D) or `MCP: Add Server` → HTTP → URL above |
-| **Cursor** | [Install](cursor://anysphere.cursor-deeplink/mcp/install?name=veoskill&config=eyJ1cmwiOiJodHRwczovL3Zlb3NraWxsLnV6L21jcCJ9) |
+| **Cursor** | [Install](https://cursor.com/en/install-mcp?name=veoskill&config=eyJ1cmwiOiJodHRwczovL3Zlb3NraWxsLnV6L21jcCJ9) |
 | **Claude Code** | `claude mcp add --transport http veoskill https://veoskill.uz/mcp` |
 | **Codex** | `codex mcp add veoskill --url https://veoskill.uz/mcp && codex mcp login veoskill` |
 | **Other apps** | any client with Streamable HTTP and OAuth (dynamic client registration) |
